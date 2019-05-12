@@ -21,3 +21,6 @@ You're expected to have a folder inside the `sprites` folder that has a list of 
 There is a sample `walking_anims` folder that has some walking animations. To test it, just run:
 
 `$ node app.js --folder "walking_anims" --perRow 5 --amount 15 --format "Walk ($s).png"`
+
+# Note
+All sprites are expected to be using the same dimensions.
