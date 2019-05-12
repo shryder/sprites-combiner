@@ -9,9 +9,13 @@ You're expected to have a folder inside the `sprites` folder that has a list of 
 
 # Parameters
 `--folder`: Name of a folder inside the `sprites` folder, defaults to "walking_anims".
+
 `--perRow`: Amount of sprites per row, defaults to 5.
+
 `--amount`: Amount of sprites that you want to combine together, defaults to 10. Note: if a certain sprite was not found, it will be replaced by an empty one.
+
 `--format`: File naming format that your sprites use, defaults to `$s.png`. $s is replaced with a number automatically.
+
 
 # Example
 There is a sample `walking_anims` folder that has some walking animations. To test it, just run:
